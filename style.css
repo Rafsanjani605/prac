@@ -1,4 +1,35 @@
-.git{
-    color: :red;
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h2{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+h3{
+    padding-bottom: 20px;
+}
 
+.left{
+    float: left;
+    width: 40%;
+    padding: 100px 10px 50px 100px;
+}
+
+.pic{
+
+    width: 40%;
+    float: left;
+    padding-left: 100px;
+    padding-top: 2px;
+}
+.pic img{
+    width: 70%;
+}
+
+.top{
+    background-image: url("top-banner.png");
 }
