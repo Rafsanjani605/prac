@@ -4,7 +4,17 @@
 }
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
+    
 }
+
+
+p{
+    color: gray;
+}
+
+
 h2{
     padding-top: 60px;
     padding-bottom: 20px;
@@ -12,11 +22,41 @@ h2{
 h3{
     padding-bottom: 20px;
 }
+ 
+.navbar{
+    height: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 40px;
+
+   
+}
+
+.navbar a{
+    padding: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    font-family: cursive;
+
+    
+}
+.navbar a:hover{
+   
+    color: blueviolet;
+    text-decoration: underline;
+    
+}
 
 .left{
     float: left;
     width: 40%;
     padding: 100px 10px 50px 100px;
+    
+    
 }
 
 .pic{
@@ -24,12 +64,149 @@ h3{
     width: 40%;
     float: left;
     padding-left: 100px;
-    padding-top: 2px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .pic img{
-    width: 70%;
+    width: 90%;
 }
 
-.top{
-    background-image: url("top-banner.png");
+
+
+.btn{
+
+    
+    background-color: orange;
+    margin-top: 20px;
+    
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+    
 }
+
+.btn a{
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(49, 40, 2);
+    
+}
+
+.btn a:hover{
+    margin: 5px;
+    padding: 10px;
+    background-color: brown;
+    color: beige;
+    border-radius: 15px;
+    
+}
+
+.buttom{
+    width: 80%;
+    padding: 30px 75px 10px 80px;
+    
+    background-repeat: no-repeat;
+    background-position: ;
+    background-attachment: fixed;
+    
+}
+
+.buttom .img2 img{
+    width: 40%;
+    float: left;
+}
+
+.right{
+    width: 40%;
+    
+    padding-left: 700px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+ 
+   
+    
+
+}
+
+.dream{
+    color: crimson;
+}
+.mid{
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+.btn1{
+    margin-top: 100px;
+    padding: 10px;
+    background-color: burlywood;
+    text-decoration: none;
+    border: 30px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+.btn1:hover{
+    background-color: violet;
+}
+
+
+.top{
+    float: left;
+}
+
+.experience{
+    margin: 100px;px;
+    display:flex ;
+    padding-bottom: 30px;
+    float: left;
+}
+
+.ex{
+    padding-bottom: 100px;
+}
+.half-width{
+    padding: 10px;
+    margin: 40px;
+    background-color: rgb(145, 198, 198);
+    color: rgb(71, 48, 16);
+    padding-left: 20px;
+    border-left: 10px solid rgb(87, 118, 87);
+    border-bottom: 10px solid rgb(54, 54, 102);
+    border-radius: 100px;
+    height: 450px;
+    width: 350px;
+    
+}
+.half-width p{
+    color: rgb(247, 8, 8);
+    padding: 10px;
+}
+
+.last{
+    height: 200px;
+    background-color: aquamarine;
+    display: grid;
+    padding: 50px;
+}
+.last .fleft{
+    float: left;
+    
+
+}
+
+.last .asj{
+    float: left;
+}
+
+.fleft a{
+    padding-right: 50px;
+}
+
+.clear {
+    clear: left;
+  }
+
